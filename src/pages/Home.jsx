@@ -1,10 +1,12 @@
 import React from 'react'
+import Login from '../auth/Login'
 import NavBar from '../components/NavBar'
 
 const Home = () => {
   return (
-    <div>
-        <NavBar />
+    <div className='flex justify-center '>
+        
+       <Login/>
     </div>
   )
 }
